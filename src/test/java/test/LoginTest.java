@@ -1,5 +1,4 @@
 package test;
-
 import driver.Driver;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
@@ -36,13 +35,6 @@ public class LoginTest extends WaitUtils{
         findingScooterPage.ring.click();
         findingScooterPage.reserveButton.click();
 
-
-
-
-
-        //Burası kartı sonra ekle yeri
-        //WaitUtils.waitForClickability(Driver.getAppiumDriver(),loginPages.maybeLater,15);
-        //loginPages.maybeLater.click();
 
 
 

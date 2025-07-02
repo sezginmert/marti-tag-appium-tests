@@ -1,6 +1,5 @@
 package utilities;
 
-
 import driver.Driver;
 import io.appium.java_client.*;
 import io.appium.java_client.android.AndroidDriver;
@@ -17,7 +16,6 @@ import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -26,17 +24,14 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Collections;
 import java.util.Date;
-
 import static driver.Driver.getAppiumDriver;
 import static java.time.Duration.ofMillis;
 import static java.util.Collections.singletonList;
 import static org.openqa.selenium.By.xpath;
 
-
 public class ReusableMethods {
+
     private static DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-
-
 
     WebDriver driver;
 

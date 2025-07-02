@@ -21,6 +21,8 @@ public class SmsVerificationTest {
 
         // Devam Et
         loginPages.butonNext.click();
+
+        // Sms istegi ve Dogrulama
         verificationPage.smsRequest();
         Assert.assertTrue(homePage.startRidingButton.isDisplayed());
 

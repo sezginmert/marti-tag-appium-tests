@@ -27,20 +27,7 @@ public class LoginPages {
     @AndroidFindBy(id = "com.martitech.marti:id/btnNext")
     public WebElement butonNext;
 
-    @AndroidFindBy(id = "com.martitech.marti:id/p1")
-    public WebElement code1;
 
-    @AndroidFindBy(id = "com.martitech.marti:id/p2")
-    public WebElement code2;
-
-    @AndroidFindBy(id = "com.martitech.marti:id/p3")
-    public WebElement code3;
-
-    @AndroidFindBy(id = "com.martitech.marti:id/p4")
-    public WebElement code4;
-
-    @AndroidFindBy(id = "com.martitech.marti:id/btnLater")
-    public WebElement maybeLater;
 
 
 
